@@ -1,4 +1,8 @@
-﻿namespace CardsDeck;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace CardsDeck;
 
 /// <summary>
 /// Represents a thread-safe deck of playing cards 

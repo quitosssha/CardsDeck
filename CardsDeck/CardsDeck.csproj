@@ -2,7 +2,19 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
+        <PackageId>MikZ.CardsDeck</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>MikZ</Authors>
+        <Description>Represents a thread-safe deck of playing cards</Description>
+        <PackageTags>card, cards, deck, cardsdeck, playingcards</PackageTags>
+        <RepositoryUrl>https://github.com/quitosssha/CardsDeck</RepositoryUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 
 </Project>

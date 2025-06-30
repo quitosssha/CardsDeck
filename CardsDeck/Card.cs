@@ -1,4 +1,6 @@
-﻿namespace CardsDeck;
+﻿using System;
+
+namespace CardsDeck;
 
 public struct Card : IComparable<Card>
 {
